@@ -1,6 +1,6 @@
 # Nuitka Cross-Compilation Container for Win-x64
 
-This project make possible to compile python script for Windows in docker container.
+This project makes possible to compile python script for Windows in docker container.
 
 ## Requirement
 
@@ -10,7 +10,7 @@ This project make possible to compile python script for Windows in docker contai
 
 - Debian Bullseye
 - Wine v8.0.1
-- Python 3.10.11
+- Python 3.10
 
 ## How to try this out
 

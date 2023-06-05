@@ -1,0 +1,3 @@
+sample/*.build
+sample/*.dist
+sample/*.onefile-build

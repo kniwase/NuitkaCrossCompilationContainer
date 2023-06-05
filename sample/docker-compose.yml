@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  sample:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    container_name: nuitka-cross-compiler-sample
+    working_dir: /build
+    volumes:
+      - ./:/build
+    command: wine python.exe -m nuitka ./sample.py --mingw64 --onefile --standalone
